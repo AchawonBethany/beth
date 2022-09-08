@@ -1,0 +1,12 @@
+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
+
+Setting up token (optional)
+git remote set-url origin https://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@github.com/AchawonBethany/beth.git
+
+Add files to your local repository
+
+Upload it to your repository by using this commands:
+git add . 
+git commit -m "first upload"
+git push
+
