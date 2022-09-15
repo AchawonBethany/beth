@@ -1,0 +1,74 @@
+<?php
+
+//PHP exercise 1
+echo "Twinkle, Twinkle little star. ";
+$twinkle = "Twinkle";
+$star = "star";
+echo "$twinkle $twinkle little $star. ";
+echo "$twinkle Twinkle little $star. ";
+echo "\n";
+
+//PHP exercise 2
+$x = 10;
+$y = 7;
+
+echo "\n";
+echo $x, " + ", $y, " = ", $x + $y;
+echo "\n";
+
+echo $x, " - ", $y, " = ", $x - $y;
+echo "\n";
+
+echo $x, " * ", $y, " = ", $x * $y;
+echo "\n";
+
+echo $x, " / ", $y, " = ", $x / $y;
+echo "\n";
+
+echo $x, " % ", $y, " = ", $x % $y;
+echo "\n";
+
+//PHP exercise 3
+$num = 8; 
+echo "\n";
+echo "Value is now $num.";   
+echo "\n";
+
+$num += 2; 
+echo "Add 2. Value is now $num.";   
+echo "\n";
+
+$num -= 4; 
+echo "Subtract 4. Value is now $num.";   
+echo "\n";
+
+$num *= 5; 
+echo "Multiply by 5. Value is now $num.";   
+echo "\n";
+
+$num /= 3; 
+echo "Divide by 3. Value is now $num.";   
+echo "\n";
+
+$num++; 
+echo "Increment value by one. Value is now $num.";   
+echo "\n";
+
+$num--; 
+echo "Decrement value by one. Value is now $num.";   
+echo "\n";
+
+
+//PHP exercise 4
+echo "\n";
+$name='Harry'; 
+$age=28;
+
+var_dump($name); 
+print_r($name); 
+echo "\n";
+var_dump($age); 
+$name=null;
+var_dump($name);
+?>
+
